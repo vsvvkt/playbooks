@@ -1,6 +1,6 @@
 ---
  - name : webserverpb
-   hosts : all
+   hosts : webserver
    tasks :
      - name : Install webserver
        yum :
